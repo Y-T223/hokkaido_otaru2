@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>小樽芸術村 ステンドグラス美術館｜英国の教会に灯っていた光に出会う</title>
+<meta name="description" content="1923年築の旧高橋倉庫で、19世紀後半〜20世紀初頭の英国教会ステンドグラスを約140点展示。北海道小樽市色内の小樽芸術村 ステンドグラス美術館。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#141a30; --ink2:#1d2442; --ruby:#7b2230; --gold:#c4a15a; --gold2:#e3cd96;
+  --paper:#ece2cb; --paper2:#e0d3b4; --text:#2a2418; --light:#f3ead3;
+  --serif:"Shippori Mincho","Zen Old Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:var(--serif);color:var(--text);background:var(--paper);line-height:1.95;font-size:16px;overflow-x:hidden;
+  padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{width:min(100% - 40px,880px);margin-inline:auto}
+section{padding:72px 0}
+h2{font-weight:700;font-size:clamp(1.5rem,6vw,2rem);letter-spacing:.12em;line-height:1.6;text-align:center}
+.orn{display:flex;align-items:center;justify-content:center;gap:14px;margin:18px auto 36px;color:var(--gold)}
+.orn::before,.orn::after{content:"";width:56px;height:1px;background:currentColor}
+.orn i{width:9px;height:9px;transform:rotate(45deg);border:1px solid currentColor}
+.dark{background:var(--ink);color:var(--light)}
+.dark h2{color:var(--gold2)}
+
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;background:var(--ink);color:var(--light);padding:0}
+.hero .bg{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 20%,#3a2a4a 0,var(--ink) 70%)}
+.hero .bg img{width:100%;height:100%;object-fit:cover;opacity:.78}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,26,48,.96) 8%,rgba(20,26,48,.45) 55%,rgba(20,26,48,.2));}
+.hero .in{position:relative;z-index:1;width:min(100% - 40px,880px);margin:0 auto;padding:0 0 calc(56px + env(safe-area-inset-bottom));}
+.frame{display:inline-block;border:1px solid var(--gold);padding:5px;margin-bottom:26px}
+.frame span{display:block;border:1px solid rgba(196,161,90,.5);padding:6px 16px;font-size:.82rem;letter-spacing:.3em;color:var(--gold2)}
+.hero h1{font-weight:700;font-size:clamp(2.1rem,10.5vw,3.8rem);line-height:1.35;letter-spacing:.1em;text-shadow:0 2px 18px rgba(0,0,0,.6)}
+.hero p{margin-top:20px;font-size:1rem;letter-spacing:.08em;max-width:30em}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 34px;border:1px solid var(--gold);background:transparent;color:var(--gold2);text-decoration:none;letter-spacing:.2em;font-family:inherit;font-size:.95rem;transition:background .25s,color .25s}
+.btn:hover{background:var(--gold);color:var(--ink)}
+.hero .btn{margin-top:30px}
+
+/* story */
+.lead{font-size:1.05rem;text-align:justify}
+.lead+.lead{margin-top:1.2em}
+.photo{margin:44px auto 0;padding:8px;background:var(--light);box-shadow:0 10px 30px rgba(40,30,10,.25);border:1px solid var(--gold)}
+.photo img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--paper2)}
+.photo figcaption{font-size:.8rem;text-align:center;padding:10px 0 4px;letter-spacing:.15em;color:#6a5a38}
+.facts{display:grid;gap:16px;margin-top:40px}
+.facts div{border-left:3px solid var(--ruby);padding:4px 0 4px 16px}
+.facts b{display:block;font-size:1.05rem;letter-spacing:.08em}
+.facts span{font-size:.92rem}
+
+/* highlights */
+.hl{display:grid;gap:22px}
+.hl article{border:1px solid rgba(196,161,90,.55);padding:26px 22px;background:rgba(255,255,255,.03)}
+.hl h3{color:var(--gold2);font-size:1.15rem;letter-spacing:.1em;margin-bottom:8px}
+.hl p{font-size:.96rem}
+.photo.dk{background:#0e1224;margin-top:36px}
+.photo.dk figcaption{color:var(--gold)}
+
+/* voices */
+.voices{display:grid;gap:26px}
+.voice{background:var(--light);border:1px solid var(--gold);padding:28px 22px 22px;position:relative}
+.voice::before{content:"“";position:absolute;top:-6px;left:14px;font-size:4.2rem;line-height:1;color:var(--ruby);opacity:.55}
+.stars{color:var(--ruby);letter-spacing:.2em;font-size:1.05rem;margin-bottom:6px}
+.stars small{color:#9a8a68}
+.voice p{font-size:.95rem;text-align:justify}
+.voice cite{display:block;margin-top:12px;font-style:normal;font-size:.8rem;color:#7a6a48;text-align:right}
+
+/* info */
+.info{width:100%;border-collapse:collapse;font-size:.96rem;margin-bottom:44px}
+.info th,.info td{padding:16px 6px;text-align:left;vertical-align:top;border-bottom:1px solid rgba(196,161,90,.45);font-weight:400}
+.info th{width:5.6em;color:var(--gold2);letter-spacing:.15em;white-space:nowrap}
+.info td{overflow-wrap:anywhere}
+.info a{color:var(--light)}
+.map{border:1px solid var(--gold);padding:6px;background:#0e1224}
+.map iframe{display:block;width:100%;height:clamp(260px,70vw,380px);border:0;filter:sepia(.25) saturate(.9)}
+.mapbtn{text-align:center;margin-top:22px}
+.sns{display:flex;justify-content:center;margin-top:44px}
+.sns a{width:52px;height:52px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold2);transition:background .25s,color .25s}
+.sns a:hover{background:var(--gold);color:var(--ink)}
+.sns svg{width:24px;height:24px}
+footer{background:#0b0f20;color:var(--gold);text-align:center;font-size:.78rem;letter-spacing:.14em;padding:30px 20px calc(30px + env(safe-area-inset-bottom))}
+
+@media(min-width:760px){
+  section{padding:104px 0}
+  .facts,.hl{grid-template-columns:repeat(2,1fr)}
+  .voices{grid-template-columns:repeat(2,1fr)}
+  .hero .in{padding-bottom:84px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="bg"><img src="images/1.jpg" alt="小樽芸術村 ステンドグラス美術館の展示室に広がる色鮮やかなステンドグラス"></div>
+  <div class="in">
+    <div class="frame"><span>北海道・小樽</span></div>
+    <h1>小樽芸術村<br>ステンドグラス美術館</h1>
+    <p>祈りの窓に灯っていた、百年前の光。<br>石造りの倉庫にいま、英国の教会が息づいています。</p>
+    <a class="btn" href="#access">アクセスを見る</a>
+  </div>
+</header>
+
+<section id="story">
+  <div class="wrap">
+    <h2>倉庫に宿る、<br>教会の光</h2>
+    <div class="orn"><i></i></div>
+    <p class="lead">1923年に建てられた旧高橋倉庫は、もともと穀物を納めるための倉庫でした。小樽の港町とともに歩んだ歴史ある建物が、いまは19世紀後半から20世紀初頭にかけて英国で制作された、教会のステンドグラスを展示する美術館になっています。</p>
+    <p class="lead">かつて実際に教会の窓を飾っていた本物の作品が、保存状態よく並びます。静かな空間の中で浮かび上がる色と陰影が、当時の信仰と英国工芸の技を伝えてくれます。</p>
+    <figure class="photo">
+      <img src="images/2.jpg" alt="1923年築の旧高橋倉庫を活かした石造りの建物と、小樽の街並み" loading="lazy">
+      <figcaption>1923年築、旧高橋倉庫</figcaption>
+    </figure>
+    <div class="facts">
+      <div><b>本物の教会ステンドグラス</b><span>19世紀後半〜20世紀初頭の英国製。実際に教会の窓を飾っていた作品です。</span></div>
+      <div><b>歴史的建造物そのものが見どころ</b><span>当時の建築様式や工法も見学でき、芸術と建築技術をあわせて味わえます。</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="highlight">
+  <div class="wrap">
+    <h2>見どころ</h2>
+    <div class="orn"><i></i></div>
+    <div class="hl">
+      <article>
+        <h3>約140点の展示</h3>
+        <p>英国の教会ステンドグラスを中心に、約140点を展示。倉庫建築を活かした広い空間いっぱいに、色鮮やかな光が広がります。</p>
+      </article>
+      <article>
+        <h3>光と陰影の表現力</h3>
+        <p>絵画とは違い、光と闇の陰影によって浮かび上がる色彩。肉眼で見てこそ伝わる迫力があります。</p>
+      </article>
+    </div>
+    <figure class="photo dk">
+      <img src="images/3.jpg" alt="2階から見下ろすステンドグラスの展示空間" loading="lazy">
+      <figcaption>2階からの眺めも、ぜひ</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="voice">
+  <div class="wrap">
+    <h2>ご来館の声</h2>
+    <div class="orn"><i></i></div>
+    <div class="voices">
+      <div class="voice">
+        <div class="stars">★★★★<small>★</small></div>
+        <p>とても綺麗で美しかったです。絵画と違って、ステンドグラスは光と闇の陰影によって浮き上がってダイナミックに伝えてる感じがあり、その表現力に圧巻しました。ヨーロッパの芸術はキリスト教を題材にしていることが多く、ここの展示物も約8割近くがキリスト教関係だったと思いました。個人的には俗世界のものや、星座の物語、童話などもたくさん見てみたかったです。</p>
+        <cite>ご来館者の口コミ</cite>
+      </div>
+      <div class="voice">
+        <div class="stars">★★★★★</div>
+        <p>今回の旅で一番行ってみたい所でした。評判が良いので入館してみたら、写真で見るより凄く良い。こんなに大きな物が全てステンドグラスで作られているなんて感動モノでした。2階からの眺め、角から斜め対角に眺める景色と、肉眼でないと感じられない良さがありました。機会があれば是非どうぞ。</p>
+        <cite>ご来館者の口コミ</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="access">
+  <div class="wrap">
+    <h2>ご案内・アクセス</h2>
+    <div class="orn"><i></i></div>
+    <table class="info">
+      <tr><th scope="row">施設名</th><td>小樽芸術村 ステンドグラス美術館</td></tr>
+      <tr><th scope="row">住所</th><td>北海道小樽市色内1丁目3-1</td></tr>
+      <tr><th scope="row">電話</th><td><a href="tel:0134311033">0134-31-1033</a></td></tr>
+      <tr><th scope="row">定休日</th><td>5〜10月：毎月第4水曜日<br>11〜4月：毎週水曜日（祝日の場合はその翌日）、年末年始</td></tr>
+      <tr><th scope="row">メール</th><td><a href="mailto:nitoribzd@nitori.jp">nitoribzd@nitori.jp</a></td></tr>
+      <tr><th scope="row">公式サイト</th><td><a href="https://www.nitorihd.co.jp/otaru-art-base/stained-glass-museum/" target="_blank" rel="noopener">nitorihd.co.jp/otaru-art-base</a></td></tr>
+    </table>
+
+    <div class="map">
+      <iframe title="小樽芸術村 ステンドグラス美術館の地図" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=%E5%8C%97%E6%B5%B7%E9%81%93%E5%B0%8F%E6%A8%BD%E5%B8%82%E8%89%B2%E5%86%851%E4%B8%81%E7%9B%AE3-1+%E5%B0%8F%E6%A8%BD%E8%8A%B8%E8%A1%93%E6%9D%91+%E3%82%B9%E3%83%86%E3%83%B3%E3%83%89%E3%82%B0%E3%83%A9%E3%82%B9%E7%BE%8E%E8%A1%93%E9%A4%A8&hl=ja&z=16&output=embed"></iframe>
+    </div>
+    <div class="mapbtn">
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B5%B7%E9%81%93%E5%B0%8F%E6%A8%BD%E5%B8%82%E8%89%B2%E5%86%851%E4%B8%81%E7%9B%AE3-1+%E5%B0%8F%E6%A8%BD%E8%8A%B8%E8%A1%93%E6%9D%91+%E3%82%B9%E3%83%86%E3%83%B3%E3%83%89%E3%82%B0%E3%83%A9%E3%82%B9%E7%BE%8E%E8%A1%93%E9%A4%A8" target="_blank" rel="noopener">地図を開く</a>
+    </div>
+
+    <div class="sns">
+      <a href="https://www.instagram.com/otaru.art.base/?hl=ja" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>© 小樽芸術村 ステンドグラス美術館</footer>
+</body>
+</html>
